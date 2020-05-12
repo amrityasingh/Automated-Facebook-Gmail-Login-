@@ -2,20 +2,13 @@ from selenium import webdriver
 from time import sleep
 import subprocess as sp
 
-x = sp.getoutput("whoami")
-user = "bananaboi"
-stat = 0
-
-if(x==user):
-        print("Welcome {}".format(x))
-        stat = 1
 
 print("Enter platform name to login into it ")
 c=str(input())
 
 if(c=='facebook'):
-        usr='amritya.lordstark@gmail.com'
-        pwd='xoxoxo69'
+        usr='your email id'
+        pwd='your password'
 
         driver = webdriver.Chrome() 
         driver.get('https://www.facebook.com/') 
